@@ -1,0 +1,98 @@
+/* selectionForm.css */
+
+body {
+  background-color: #f9f8f6;
+  font-size: 14px;
+}
+
+.form-wrapper {
+  margin-top: 100px;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 30px 40px;
+  background-color: transparent; /* remove box effect */
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.form-heading {
+  font-size: 22px;
+  font-weight: 600;
+  color: #2c2c2c;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.form-subtitle {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.section {
+  margin-bottom: 25px;
+}
+
+.section-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #3d2b1f;
+  margin-bottom: 12px;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: space-between;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  background-color: #f3f3f3;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #333;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  flex: 1 1 calc(33% - 12px); /* 3 per row */
+  box-sizing: border-box;
+}
+
+.checkbox-label:hover {
+  background-color: #e6e0d6;
+}
+
+.checkbox-input {
+  margin-right: 8px;
+  accent-color: #c99b4b;
+  width: 16px;
+  height: 16px;
+}
+
+.btn-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.next-btn {
+  background-color: #1f2937;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  width: 100px; /* Fixed smaller width */
+  height: 32px; /* Set height */
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.next-btn:hover {
+  background-color: #c5bbac;
+}

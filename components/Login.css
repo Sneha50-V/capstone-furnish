@@ -1,0 +1,77 @@
+/* Fullscreen Background */
+.login-background {
+  background-image: url("https://wallpaperaccess.com/full/2594920.jpg"); /* You can change the image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Centered Login Box */
+.login-form-box {
+  background-color: rgba(255, 255, 255, 0.92);
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+}
+
+.login-container {
+  background: url("https://wallpaperaccess.com/full/2594920.jpg") no-repeat
+    center center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2rem 3rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.login-form input,
+.login-form button {
+  width: 100%;
+  padding: 0.9rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.login-form input:focus {
+  outline: none;
+  border-color: #666;
+}
+
+.login-form button {
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.login-form button:hover {
+  opacity: 0.85;
+}

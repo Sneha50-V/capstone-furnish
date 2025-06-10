@@ -1,0 +1,58 @@
+.designer-register-wrapper {
+  min-height: 100vh;
+  background: url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c")
+    no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.designer-form {
+  max-width: 500px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.92);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  font-size: 0.9rem; /* 👈 smaller font size */
+}
+
+.designer-form h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 1.5rem; /* smaller and consistent */
+  color: #333;
+}
+
+.designer-form input,
+.designer-form textarea,
+.designer-form button {
+  width: 100%;
+  padding: 0.6rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  box-sizing: border-box;
+}
+
+.upload-label {
+  margin-top: 0.75rem;
+  font-weight: 500;
+  color: #444;
+}
+
+.designer-form button {
+  background-color: #222;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  padding: 0.75rem;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+.designer-form button:hover {
+  background-color: rgba(0, 0, 0, 0.85);
+}
